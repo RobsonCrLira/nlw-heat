@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "target": "ES2018",
+        "lib": [
+            "ES6"
+        ],
+        "module": "commonjs",
+        // "rootDir": "./src",
+        // "baseUrl": ".",
+        "outDir": "./dist",
+        "resolveJsonModule": true,
+        "removeComments": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "strict": false,
+        "skipLibCheck": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "typeRoots": [
+            "./src/@types"
+        ],
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
